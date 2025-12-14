@@ -135,19 +135,6 @@ QR scanning requires a real device.
 
 This public repository is intended as a **portfolio / demo version**.
 
-For commercialization:
-- Keep production code private
-- Remove sensitive keys and credentials
-- Consider separating:
-    - `lifestylepass-app` (public demo)
-    - `lifestylepass-api` (private)
-
-It is completely OK to have:
-- A private repo named `lifestylepass`
-- A public repo with the same or similar name under your account
-
-GitHub treats them as separate repositories.
-
 ---
 
 ## Roadmap Ideas
