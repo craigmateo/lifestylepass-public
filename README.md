@@ -2,6 +2,12 @@
 
 LifestylePass is a mobile-first platform for discovering local venues, activities, and managing verified check-ins using QR codes.
 
+## Public vs Private Repo Strategy
+
+This public repository is intended as a **portfolio / demo version**. Please contact me for source code or details.
+
+https://github.com/user-attachments/assets/b0c02fcd-eaab-4949-b019-db87d820b703
+
 Built with:
 - Expo + React Native (mobile app)
 - Laravel + Sanctum (API backend)
@@ -11,6 +17,7 @@ The app allows users to:
 - Browse venues on a map
 - Filter venues by city and activity category
 - View upcoming activities
+
 - Check in at venues using QR codes
 - View and re-verify recent check-ins
 - Manage their profile and subscription plan
@@ -43,35 +50,6 @@ The app allows users to:
 - Laravel Sanctum
 - MySQL
 - REST API
-
----
-
-## Project Structure
-
-Mobile app (Expo):
-    mobile/
-      app/
-        (tabs)/
-          index.tsx        # Home
-          venues.tsx       # Venue map + list
-          activities/      # Activities listing
-          scan.tsx         # QR scanner
-          profile.tsx      # User profile
-        checkin-success.tsx
-      components/
-      utils/
-      config/
-
-Backend (Laravel):
-    app/
-      Http/
-        Controllers/
-      Models/
-    routes/
-      api.php
-    database/
-      migrations/
-      seeders/
 
 ---
 
@@ -128,12 +106,6 @@ QR scanning requires a real device.
 4. App displays a confirmation screen
 5. Last check-in is stored locally for re-verification
 6. Check-in proof expires after a short time window (configurable)
-
----
-
-## Public vs Private Repo Strategy
-
-This public repository is intended as a **portfolio / demo version**.
 
 ---
 
