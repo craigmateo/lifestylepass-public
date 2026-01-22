@@ -6,6 +6,8 @@ LifestylePass is a mobile-first platform for discovering local venues, activitie
 
 This public repository is intended as a **portfolio / demo version**. Please contact me for source code or details.
 
+Demo Video: 
+
 https://github.com/user-attachments/assets/b0c02fcd-eaab-4949-b019-db87d820b703
 
 Built with:
